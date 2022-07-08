@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.TFigure {
+  background-image: url('./Images/down.png');
+}
+.LFigure {
+  background-image: url('./Images/lfigure.png');
+}
+.BlankFigure {
+  background-image: url('./Images/blank.png');
+}
+.IFigure {
+  background-image: url('./Images/ifigure.png');
+}
+.XFigure {
+  background-image: url('./Images/xfigure.png');
+}
+.EndFigure {
+  background-image: url('./Images/endfigure.png');
+}
+.BridgeStartFigure {
+  background-image: url('./Images/bridgestartfigure.png');
+}
+.IBridgeFigure {
+  background-image: url('./Images/ibridgefigure.png');
+}
+.TunnelBridgeFigure {
+  background-image: url('./Images/tunnelbridge.png');
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
